@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/passwordEditText1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/rounded_background"
+android:orientation="vertical"
+android:padding="24dp">
+
+<TextView
+    android:id="@+id/welcome_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Добро пожаловать!"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/instruction_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:text="В этом блокноте вы можете записывать такие личные данные, как пароли к различным сервисам и многое другое, не боясь взлома. Вы также можете поделиться зашифрованным файлом. Для этого вам нужно ввести текст в самом блокноте и нажать на кнопку сохранить или поделиться. Затем вы должны будете ввести пароль (от 7 символов) и запомнить его, ведь без него вы не сможете в дальнейшем расшифровать данные"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btn_go_to_main"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Продолжить" />
+
+</LinearLayout>
